@@ -37,7 +37,6 @@ This app calculates the total purchase amount for a customer by applying the cor
 - Product-level discounts (`FixedDiscount`, `PercentageDiscount`)
 - Overall-level discounts (`OverallDiscount`) based on customer loyalty
 - 11% VAT is calculated after all discounts
-- Button-triggered calculation in UI
 - Clean modular architecture using OOP and SOLID principles
 
 
