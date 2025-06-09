@@ -1,16 +1,43 @@
-# code_test_1
+# Supermarket Discount Engine
 
-A new Flutter project.
+A Flutter-based demo project simulating a discount engine for a supermarket, built as a solution to `code_test_01`.
 
-## Getting Started
+This app calculates the total purchase amount for a customer by applying the correct order of discounts and tax, following business rules and object-oriented programming principles.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Specifications
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Fixed discounts** are applied before **percentage discounts**
+- **Product discounts** are applied before **overall discounts**
+- An **11% VAT** is applied to every purchase
+- **All discounts** are applied **before** tax
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Requirements Implemented
+
+- ✅ All classes are defined using OOP principles:
+  - Inheritance
+  - Encapsulation
+  - Abstraction
+  - Polymorphism
+- ✅ Mock methods serve as API calls for:
+  - Customers
+  - Items
+  - Orders
+  - Discounts
+- ✅ A central logic calculates the total cost of purchase for a given list of items and a customer ID
+- ✅ UI includes a button to simulate an order and display the total after applying discounts and VAT
+
+---
+
+## Features
+
+- Product-level discounts (`FixedDiscount`, `PercentageDiscount`)
+- Overall-level discounts (`OverallDiscount`) based on customer loyalty
+- 11% VAT is calculated after all discounts
+- Button-triggered calculation in UI
+- Clean modular architecture using OOP and SOLID principles
+
+
